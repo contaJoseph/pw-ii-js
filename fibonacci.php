@@ -6,10 +6,10 @@ function fibonacci($n)
 
     for ($i = 1; $i < $n; $i++)
     {
-        array_push($arr, $arr[$i] + $arr[$i-1]);
+        array_push($arr, $arr[$i] + $arr[$i - 1]);
     }
 
     return $arr;
 }
 
-print_r(fibonacci(10));
+print_r(fibonacci(20));
